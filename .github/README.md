@@ -14,6 +14,7 @@ To install NodeJS:
 ```bash
 sudo apt-get install nodejs
 ```
+Install the project based dependicies in the root directory of this repository
 ```bash
 npm i
 ```
