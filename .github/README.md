@@ -10,7 +10,10 @@ For user documentation, see the [NPM readme](https://github.com/legumeinfo/web-c
 ## Setup
 
 Install dependencies:
-
+To install NodeJS: 
+```bash
+sudo apt-get install nodejs
+```
 ```bash
 npm i
 ```
