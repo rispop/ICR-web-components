@@ -7,7 +7,11 @@ UIkit, however, is only listed as a development dependency and must be installed
 This readme is intended for developers.
 For user documentation, see the [NPM readme](https://github.com/legumeinfo/web-components/blob/main/README.md) and [our documentation site](https://legumeinfo.github.io/web-components/).
 
-
+# The web component I worked on is located in 
+```
+src/lis-phylotree.ts
+dev/lis-phylotree.html
+```
 
 ## Setup
 
@@ -69,12 +73,13 @@ To run the dev server and open the project in a new browser tab:
 ```bash
 npm run serve
 ```
+
+There is a development HTML file located at `/dev/index.html` that can be viewed at http://localhost:8000/dev/index.html. Note that this command will serve the code using Lit's development mode (with more verbose errors). To serve the code against Lit's production mode, use `npm run serve:prod`.
+
 # Important: To access the portion of the Project I worked on, navigate to 
 ```
 http://localhost:8000/dev/lis-phylotree.html
 ```
-
-There is a development HTML file located at `/dev/index.html` that can be viewed at http://localhost:8000/dev/index.html. Note that this command will serve the code using Lit's development mode (with more verbose errors). To serve the code against Lit's production mode, use `npm run serve:prod`.
 
 ## Editing
 
